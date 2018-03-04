@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+
+		<script type="text/javascript">
+			apiready = function() {
+				api.openFrameGroup({
+					name: "home-page",
+					background: "#fff",
+					scrollEnabled: false,
+					index: 0
+					preload: 1,
+					frames: [{
+							name: "index-page"
+							url: "./html/index.html"
+						},
+						{
+							name: "article-page",
+							url: "./html/article-page.html"
+
+						},
+						{
+							name: "video-page"
+							url: "./html/video-page.html"
+						},
+						{
+							name: "center-page"
+							url: "./html/center-page.html"
+						}
+					]
+				}, function(ret, err) {
+					var index = ret.index;
+				});
+			}
+		</script>
+
+	</body>
+
+</html>

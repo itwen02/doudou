@@ -1,0 +1,49 @@
+.aui-bar-tab .aui-active {
+	color: #00a5f5 !important;
+}
+
+.aui-tab-item{
+	color: #444444;
+}
+.aui-tab-item.aui-active {
+	color: white !important;
+	border-bottom: 2px solid white !important;
+}
+
+.m-tab {
+	width: 60%;
+	float: left;
+	background: transparent;
+}
+
+.m-sousou,
+.m-xie {
+	width: 20%;
+	float: left;
+}
+
+.m-sousou .iconfont,
+.m-xie .iconfont {
+	line-height: 2.25rem;
+}
+
+
+
+
+.adv-left-title {
+	float: left;
+	width: 80%;
+}
+
+.adv-left-title p{
+	line-height: 1.8rem;
+}
+.adv-left-title p span{
+	color: orange;
+}
+
+.adv-btn {
+	float: left;
+	width: 20%;
+	text-align: center;
+}

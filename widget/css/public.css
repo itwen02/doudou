@@ -1,0 +1,159 @@
+#m-header {
+	background: #03a9f4;
+	z-index: 1000;
+	position: fixed;
+}
+
+.m-default-icon {
+	height: .90rem !important;
+	font-size: .90rem !important;
+	line-height: .90rem !important;
+}
+
+.m-nomarl-icon {
+	height: 1rem !important;
+	font-size: 1rem !important;
+	line-height: 1rem !important;
+}
+
+.m-lang-icon{
+		height: 1.2rem !important;
+	font-size: 1.2rem !important;
+	line-height: 1.2rem !important;
+}
+
+.m-nav-text {
+	font-size: .12rem;
+}
+
+.m-footer {
+	height: .40rem;
+	z-index: 1000;
+}
+
+.m-footer .m-nav-item {
+	height: .30rem;
+}
+
+.iconfont {
+	position: relative;
+	z-index: 20;
+	top: 0.1rem;
+	height: 1.2rem;
+	font-size: 1rem;
+	line-height: 1rem;
+}
+
+.m-hide {
+	display: none;
+}
+
+.m-show {
+	display: block;
+}
+
+.m-radius-5 {
+	border-radius: .35rem;
+}
+
+.m-thumbnail-img-90 {
+	width: 100%;
+	height: 4.5rem;
+	overflow: hidden;
+}
+
+
+.m-thumbnail-img-220 {
+	width: 100%;
+	height: 11rem;
+	overflow: hidden;
+}
+
+.m-video {
+	position: relative;
+}
+
+.m-play-icon {
+	position: absolute;
+	top: 5rem;
+	z-index: 1;
+	left: 0%;
+	font-size: 2rem !important;
+	height: 2rem;
+	width: 100%;
+	text-align: center;
+}
+
+.m-play-icon .icon-play {
+	font-size: 2rem;
+	color: rgba(0, 0, 0, .5);
+}
+
+.right-bottom-corner {
+	position: absolute;
+	z-index: 1;
+	right: .5rem;
+	bottom: .5rem;
+	background: rgba(0, 0, 0, .5);
+	padding: .2rem .4rem;
+	color: white;
+	font-size: .7rem;
+	border-radius: .8rem;
+}
+
+.m-white {
+	color: white;
+}
+
+.m-orange {
+	color: orange;
+}
+
+.m-gray {
+	color: gray;
+}
+
+.m-head-img-10 {
+	height: 1rem;
+	width: 1rem;
+	float: left;
+	border-radius: .5rem;
+	margin-right: .2rem;
+}
+
+.m-head-img-60 {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 1.5rem;
+	overflow: hidden;
+	border:2px solid whitesmoke;
+}
+
+.m-text-center {
+	text-align: center;
+}
+
+.m-loadding {
+	text-align: center;
+	padding: .25rem 0px;
+}
+
+.m-serach-header {
+	padding: .42rem .5rem;
+}
+
+.m-serach-nav {
+	text-align: left;
+	background: #F4F4F4;
+	border-radius: .5rem;
+	padding: .11rem 0px;
+}
+
+.m-serach-xie{
+	padding: .11rem 0px;
+}
+
+.m-content{
+	padding-bottom: 2.25rem;
+	padding-top: 2.25rem;
+}

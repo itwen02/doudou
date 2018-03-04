@@ -1,0 +1,11 @@
+.aui-card-list-header {
+	padding: .5rem .75rem 0px .75rem;
+}
+
+.aui-card-list-content-padded {
+	padding: 0rem .75rem .5px .75rem;
+}
+
+.aui-card-list-content-padded img {
+	float: left;
+}
